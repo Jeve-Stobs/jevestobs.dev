@@ -7,7 +7,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
     <>
       <Head>
         <title>Jeve Stobs - Portfolio</title>
-        <link rel="shortcut icon" href="/static/media/jevestobs.png" />
+        <link rel="shortcut icon" href="/static/media/favicon.png" />
       </Head>
       <Component {...pageProps} />
       {/* language=CSS */}
