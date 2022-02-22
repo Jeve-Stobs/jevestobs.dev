@@ -1,10 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import {
-  faGithub,
-  faTwitter,
-  faDiscord
-} from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faChartLine } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Socials: React.FC = () => (
@@ -22,10 +19,10 @@ const Socials: React.FC = () => (
           &nbsp;&#8239; Send me a DM on Twitter
         </a>
       </Link>
-      <Link href={'https://acoustic.to'} passHref>
+      <Link href={'https://capitulation.jevestobs.dev'} passHref>
         <a className="dribbble">
-          <FontAwesomeIcon icon={faDiscord} />
-          &nbsp;&#8239; Check out my Discord bot, Acoustic
+          <FontAwesomeIcon icon={faChartLine} />
+          &nbsp;&#8239; Check out my recession indicator
         </a>
       </Link>
     </div>
