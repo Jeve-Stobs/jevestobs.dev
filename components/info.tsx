@@ -4,9 +4,9 @@ import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faChartLine } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Socials: React.FC = () => (
+const Info: React.FC = () => (
   <React.Fragment>
-    <div className="social-media-container">
+    <div className="info-media-container">
       <Link href={'https://github.com/Jeve-Stobs'} passHref>
         <a className="linkedin">
           <FontAwesomeIcon icon={faGithub} />
@@ -19,7 +19,7 @@ const Socials: React.FC = () => (
           &nbsp;&#8239; Send me a DM on Twitter
         </a>
       </Link>
-      <Link href={'https://capitulation.jevestobs.dev'} passHref>
+      <Link href={'https://fred.jevestobs.dev'} passHref>
         <a className="dribbble">
           <FontAwesomeIcon icon={faChartLine} />
           &nbsp;&#8239; Check out my recession indicator
@@ -61,14 +61,14 @@ const Socials: React.FC = () => (
       .linkedin:hover {
         background-color: rgba(40, 103, 178, 0.115);
       }
-      .social-media-container {
+      .info-media-container {
         display: grid;
         grid-template-columns: 1fr;
         grid-column-gap: 1em;
         grid-row-gap: 1em;
       }
       @media screen and (min-width: 1150px) {
-        .social-media-container {
+        .info-media-container {
           grid-template-columns: 1fr 1fr 1fr;
         }
       }
@@ -76,4 +76,4 @@ const Socials: React.FC = () => (
   </React.Fragment>
 )
 
-export default Socials
+export default Info

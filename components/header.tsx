@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from './title'
 import Subtitle from './subtitle'
-import Socials from './socials'
+import Info from './info'
 
 const Header: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <header>
         <Title text="Hi, I'm Sam 👋" />
         <Subtitle text="16 y/o developer with a passion for building websites & blazing fast applications." />
-        <Socials />
+        <Info />
       </header>
       {/* language=CSS */}
       <style jsx>{`
