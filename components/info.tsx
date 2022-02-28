@@ -19,7 +19,7 @@ const Info: React.FC = () => (
           &nbsp;&#8239; Send me a DM on Twitter
         </a>
       </Link>
-      <Link href={'https://fred.jevestobs.dev'} passHref>
+      <Link href={'https://bred.jevestobs.dev'} passHref>
         <a className="dribbble">
           <FontAwesomeIcon icon={faChartLine} />
           &nbsp;&#8239; Check out my recession indicator
