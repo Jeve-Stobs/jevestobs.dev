@@ -13,7 +13,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
       {/* language=CSS */}
       <style jsx global>{`
         body {
-          font-family: 'Inter', sans-serif;w
+          font-family: 'Inter', sans-serif;
           font-size: 10px;
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;

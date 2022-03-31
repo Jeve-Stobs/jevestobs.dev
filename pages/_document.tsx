@@ -25,10 +25,10 @@ class MyDocument extends Document {
           <meta name="twitter:creator" className="@devstobs" />
           <meta name="twitter:title" className="Jeve Stobs" />
           <meta name="twitter:description" className="Jeve Stobs - Portfolio" />
-          <link rel="preconnect" href="https://capitulation.jevestobs.dev" />
+          <link rel="preconnect" href="https://bred.jevestobs.dev" />
           <link rel="preconnect" href="https://github.com" />
           <link rel="preconnect" href="https://twitter.com" />
-          <link rel="dns-prefetch" href="https://capitulation.jevestobs.dev" />
+          <link rel="dns-prefetch" href="https://bred.jevestobs.dev" />
           <link rel="dns-prefetch" href="https://github.com" />
           <link rel="dns-prefetch" href="https://twitter.com" />
           <link
