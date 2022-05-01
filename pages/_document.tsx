@@ -6,6 +6,8 @@ import Document, {
   DocumentContext,
   NextScript
 } from 'next/document'
+import { DefaultSeo } from 'next-seo'
+
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
     const initialProps = await Document.getInitialProps(ctx)
@@ -17,14 +19,6 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
-          <meta name="description" content="Jeve Stobs - Portfolio" />
-          <meta property="og:title" content="Jeve Stobs" />
-          <meta property="og:description" content="Jeve Stobs - Portfolio" />
-          <meta property="og:type" content="website" />
-          <meta name="twitter:card" className="summary" />
-          <meta name="twitter:creator" className="@devstobs" />
-          <meta name="twitter:title" className="Jeve Stobs" />
-          <meta name="twitter:description" className="Jeve Stobs - Portfolio" />
           <link rel="preconnect" href="https://bred.jevestobs.dev" />
           <link rel="preconnect" href="https://github.com" />
           <link rel="preconnect" href="https://twitter.com" />
@@ -37,6 +31,20 @@ class MyDocument extends Document {
           />
         </Head>
         <body>
+          <DefaultSeo
+            openGraph={{
+              type: 'website',
+              locale: 'en_US',
+              url: 'https://jevestobs.dev',
+              description: 'Jeve Stobs - Portfolio',
+              site_name: 'Jeve Stobs'
+            }}
+            twitter={{
+              handle: '@devstobs',
+              site: '@jevestobs.dev',
+              cardType: 'summary_large_image'
+            }}
+          />
           <Main />
           <NextScript />
         </body>
