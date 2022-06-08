@@ -3,7 +3,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "prod": "next build && next-sitemap --config next-sitemap.config.js",
+    "prod": " npm install -g pnpm && pnpm i && && next build && next-sitemap --config next-sitemap.config.js",
     "format": "prettier --write \"**/*.{js,jsx,tsx,css}\""
   },
   "dependencies": {
