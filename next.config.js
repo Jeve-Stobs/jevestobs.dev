@@ -1,4 +1,6 @@
-module.exports = {
+const withPreact = require('next-plugin-preact')
+
+module.exports = withPreact({
   generateBuildId: () => 'build',
   distDir: 'build',
   reactStrictMode: false,
@@ -8,4 +10,4 @@ module.exports = {
     optimizeCss: true,
     scrollRestoration: true
   }
-}
+})
