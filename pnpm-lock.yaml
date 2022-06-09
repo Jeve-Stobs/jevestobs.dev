@@ -5,7 +5,7 @@ specifiers:
   '@fortawesome/free-brands-svg-icons': ^6.1.1
   '@fortawesome/free-solid-svg-icons': ^6.1.1
   '@fortawesome/react-fontawesome': ^0.1.18
-  '@next/env': ^12.1.6
+  '@next/env': ^12.1.7-canary.33
   '@types/node': ^17.0.41
   '@types/react': ^18.0.12
   critters: ^0.0.16
@@ -15,7 +15,7 @@ specifiers:
   next-plugin-preact: ^3.0.7
   next-seo: ^5.4.0
   next-sitemap: ^3.0.5
-  preact: https://github.com/preactjs/preact
+  preact: ^10.7.3
   preact-render-to-string: ^5.2.0
   prettier: ^2.6.2
   react: npm:@preact/compat@^17.1.1
@@ -27,13 +27,13 @@ dependencies:
   '@fortawesome/free-brands-svg-icons': 6.1.1
   '@fortawesome/free-solid-svg-icons': 6.1.1
   '@fortawesome/react-fontawesome': 0.1.18_on4kbd4rtinlqmskn36a5sc35q
-  '@next/env': 12.1.6
+  '@next/env': 12.1.7-canary.33
   critters: 0.0.16
   next: 12.1.7-canary.33_dmmjpkrptnkrz2kzqikv5vt4mi
   next-plugin-preact: 3.0.7_t6rgulvt46qmunx4hekolitkym
   next-seo: 5.4.0_uzw3v5ewvgoleuwenj5krlyzbu
-  next-sitemap: 3.0.5_xdhdksesaz4wsfgjxra2t2vgae
-  preact: github.com/preactjs/preact/1dc4f56916a9b24e4796d839122757cbd7fc14db
+  next-sitemap: 3.0.5_6gm442nqzicu2wlyumm2xvwhxi
+  preact: 10.7.3
   preact-render-to-string: 5.2.0_preact@10.7.3
   prettier: 2.6.2
   react: /@preact/compat/17.1.1_preact@10.7.3
@@ -177,10 +177,6 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.13
     dev: false
 
-  /@next/env/12.1.6:
-    resolution: {integrity: sha512-Te/OBDXFSodPU6jlXYPAXpmZr/AkG6DCATAxttQxqOWaq6eDFX25Db3dK0120GZrSZmv4QCe9KsZmJKDbWs4OA==}
-    dev: false
-
   /@next/env/12.1.7-canary.33:
     resolution: {integrity: sha512-eQYNJ1/4cQovdyQZUQ7FdtxmMI+fi8wa+rlH5AXKdmo9BhuRX/K53XDGVqePjR552wz4vZjzOP+tTjX/mVkPXw==}
 
@@ -320,7 +316,7 @@ packages:
     peerDependencies:
       preact: '*'
     dependencies:
-      preact: github.com/preactjs/preact/1dc4f56916a9b24e4796d839122757cbd7fc14db
+      preact: 10.7.3
 
   /@prefresh/babel-plugin/0.4.3:
     resolution: {integrity: sha512-fYAWbU1WDSLn108kKY4eDaaeUcnszFqXjgaGKYXNZ5NLulpRTpsrY+Sbfo9q8LDpWrBpqIgzjrwNnvglWI1xNQ==}
@@ -331,7 +327,7 @@ packages:
     peerDependencies:
       preact: ^10.0.0
     dependencies:
-      preact: github.com/preactjs/preact/1dc4f56916a9b24e4796d839122757cbd7fc14db
+      preact: 10.7.3
     dev: false
 
   /@prefresh/next/1.5.2_jl36y7uy7asmtyxoeenjsgzwtq:
@@ -346,7 +342,7 @@ packages:
       '@prefresh/utils': 1.1.3
       '@prefresh/webpack': 3.3.3_rbrmifxfzz72dag7i63b3dxen4
       next: 12.1.7-canary.33_dmmjpkrptnkrz2kzqikv5vt4mi
-      preact: github.com/preactjs/preact/1dc4f56916a9b24e4796d839122757cbd7fc14db
+      preact: 10.7.3
       webpack: 5.73.0
     dev: false
 
@@ -364,7 +360,7 @@ packages:
       '@prefresh/babel-plugin': 0.4.3
       '@prefresh/core': 1.3.4_preact@10.7.3
       '@prefresh/utils': 1.1.3
-      preact: github.com/preactjs/preact/1dc4f56916a9b24e4796d839122757cbd7fc14db
+      preact: 10.7.3
       webpack: 5.73.0
     dev: false
 
@@ -1801,7 +1797,7 @@ packages:
       '@prefresh/next': 1.5.2_jl36y7uy7asmtyxoeenjsgzwtq
       '@prefresh/webpack': 3.3.3_rbrmifxfzz72dag7i63b3dxen4
       module-alias: 2.2.2
-      preact: github.com/preactjs/preact/1dc4f56916a9b24e4796d839122757cbd7fc14db
+      preact: 10.7.3
       preact-render-to-string: 5.2.0_preact@10.7.3
       preact-ssr-prepass: 1.2.0_preact@10.7.3
     transitivePeerDependencies:
@@ -1822,7 +1818,7 @@ packages:
       react-dom: /@preact/compat/17.1.1_preact@10.7.3
     dev: false
 
-  /next-sitemap/3.0.5_xdhdksesaz4wsfgjxra2t2vgae:
+  /next-sitemap/3.0.5_6gm442nqzicu2wlyumm2xvwhxi:
     resolution: {integrity: sha512-YdiW5wYNruyZCvhGGOMAdTylCQuxQkZKbSFV9Fjuf/U7aAt8lJwc3HG/WvR0n3Q1Y8c1ZiW/24UDZLQPfoKsYg==}
     engines: {node: '>=14.18'}
     hasBin: true
@@ -1831,7 +1827,7 @@ packages:
       next: '*'
     dependencies:
       '@corex/deepmerge': 4.0.16
-      '@next/env': 12.1.6
+      '@next/env': 12.1.7-canary.33
       minimist: 1.2.6
       next: 12.1.7-canary.33_dmmjpkrptnkrz2kzqikv5vt4mi
     dev: false
@@ -2055,7 +2051,7 @@ packages:
     peerDependencies:
       preact: '>=10'
     dependencies:
-      preact: github.com/preactjs/preact/1dc4f56916a9b24e4796d839122757cbd7fc14db
+      preact: 10.7.3
       pretty-format: 3.8.0
     dev: false
 
@@ -2064,8 +2060,11 @@ packages:
     peerDependencies:
       preact: '>=10 || ^10.0.0-beta.0 || ^10.0.0-alpha.0'
     dependencies:
-      preact: github.com/preactjs/preact/1dc4f56916a9b24e4796d839122757cbd7fc14db
+      preact: 10.7.3
     dev: false
+
+  /preact/10.7.3:
+    resolution: {integrity: sha512-giqJXP8VbtA1tyGa3f1n9wiN7PrHtONrDyE3T+ifjr/tTkg+2N4d/6sjC9WyJKv8wM7rOYDveqy5ZoFmYlwo4w==}
 
   /prelude-ls/1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
@@ -2523,10 +2522,3 @@ packages:
   /yallist/4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
     dev: true
-
-  github.com/preactjs/preact/1dc4f56916a9b24e4796d839122757cbd7fc14db:
-    resolution: {tarball: https://codeload.github.com/preactjs/preact/tar.gz/1dc4f56916a9b24e4796d839122757cbd7fc14db}
-    name: preact
-    version: 10.7.3
-    prepare: true
-    requiresBuild: true
