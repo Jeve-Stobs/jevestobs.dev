@@ -1,14 +1,9 @@
 import React from 'react'
 import { AppProps } from 'next/app'
-import Head from 'next/head'
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <>
-      <Head>
-        <title>Jeve Stobs - Portfolio</title>
-        <link rel="shortcut icon" href="/static/media/favicon.png" />
-      </Head>
       <Component {...pageProps} />
       {/* language=CSS */}
       <style jsx global>{`
