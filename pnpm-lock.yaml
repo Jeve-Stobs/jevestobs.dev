@@ -15,7 +15,7 @@ specifiers:
   next: ^12.2.0
   next-plugin-preact: ^3.0.7
   next-seo: ^5.4.0
-  next-sitemap: ^3.1.7
+  next-sitemap: ^3.1.8
   preact: ^10.8.2
   preact-render-to-string: ^5.2.0
   preact-ssr-prepass: ^1.2.0
@@ -36,7 +36,7 @@ dependencies:
   next: 12.2.0_dmmjpkrptnkrz2kzqikv5vt4mi
   next-plugin-preact: 3.0.7_zmaxxyb32em4ynifzz3dmvytcu
   next-seo: 5.4.0_nkw4cxig5fbgwulyv5gksvwwga
-  next-sitemap: 3.1.7_p2qjwvoqhvjfuqs6jc57taups4
+  next-sitemap: 3.1.8_p2qjwvoqhvjfuqs6jc57taups4
   preact: 10.8.2
   preact-render-to-string: 5.2.0_preact@10.8.2
   preact-ssr-prepass: 1.2.0_preact@10.8.2
@@ -1840,8 +1840,8 @@ packages:
       react-dom: /@preact/compat/17.1.1_preact@10.8.2
     dev: false
 
-  /next-sitemap/3.1.7_p2qjwvoqhvjfuqs6jc57taups4:
-    resolution: {integrity: sha512-8o+rUftEtZ7d3s2BedBLeN0HZHPAtcvliA/YesP/2o7Llb5svvM/pqVBde17MgTEuGMZpHz6nqruHKGCt53G3Q==}
+  /next-sitemap/3.1.8_p2qjwvoqhvjfuqs6jc57taups4:
+    resolution: {integrity: sha512-dd9NBDk2tpRsUXjCyDh2qkROsKCLHE4AOsuefKxAkOquG5Mbck1Zv+APLiu+eBVrQXvroXrZr6zgU9thzlTowg==}
     engines: {node: '>=14.18'}
     hasBin: true
     peerDependencies:
