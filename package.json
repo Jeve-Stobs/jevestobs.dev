@@ -12,12 +12,12 @@
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@next/env": "^12.2.2",
+    "@next/env": "^12.2.3",
     "@prefresh/babel-plugin": "^0.4.3",
     "critters": "^0.0.16",
-    "next": "^12.2.2",
+    "next": "^12.2.3",
     "next-plugin-preact": "^3.0.7",
-    "next-seo": "^5.4.0",
+    "next-seo": "^5.5.0",
     "next-sitemap": "^3.1.11",
     "preact": "^10.10.0",
     "preact-render-to-string": "^5.2.1",
@@ -28,10 +28,10 @@
     "webpack": "^5.73.0"
   },
   "devDependencies": {
-    "@types/node": "^18.0.4",
+    "@types/node": "^18.0.6",
     "@types/react": "^18.0.15",
-    "eslint": "8.19.0",
-    "eslint-config-next": "12.2.2",
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.3",
     "typescript": "^4.7.4"
   }
 }
