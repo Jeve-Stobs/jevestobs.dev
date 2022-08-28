@@ -6,7 +6,6 @@ module.exports = withPreact({
   reactStrictMode: false,
   swcMinify: true,
   experimental: {
-    optimizeCss: true,
-    scrollRestoration: true
+    optimizeCss: true
   }
 })
