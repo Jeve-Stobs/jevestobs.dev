@@ -8,30 +8,30 @@
     "format": "prettier --write --cache \"**/*.{js,jsx,tsx,css}\""
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.1.2",
-    "@fortawesome/free-brands-svg-icons": "^6.1.2",
-    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@next/env": "^12.2.5",
+    "@next/env": "^12.3.1",
     "@prefresh/babel-plugin": "^0.4.3",
     "critters": "^0.0.16",
-    "next": "^12.2.5",
+    "next": "^12.3.1",
     "next-plugin-preact": "^3.0.7",
     "next-seo": "^5.5.0",
-    "next-sitemap": "^3.1.21",
-    "preact": "^10.10.6",
-    "preact-render-to-string": "^5.2.2",
+    "next-sitemap": "^3.1.23",
+    "preact": "^10.11.1",
+    "preact-render-to-string": "^5.2.4",
     "preact-ssr-prepass": "^1.2.0",
     "prettier": "^2.7.1",
-    "react": "npm:@preact/compat@^17.1.1",
-    "react-dom": "npm:@preact/compat@^17.1.1",
+    "react": "npm:@preact/compat@^17.1.2",
+    "react-dom": "npm:@preact/compat@^17.1.2",
     "webpack": "^5.74.0"
   },
   "devDependencies": {
-    "@types/node": "^18.7.13",
-    "@types/react": "^18.0.17",
-    "eslint": "8.23.0",
-    "eslint-config-next": "12.2.5",
-    "typescript": "^4.8.2"
+    "@types/node": "^18.8.2",
+    "@types/react": "^18.0.21",
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1",
+    "typescript": "^4.8.4"
   }
 }
