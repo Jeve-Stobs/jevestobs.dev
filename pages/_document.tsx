@@ -19,7 +19,6 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
-          <title>Jeve Stobs - Portfolio</title>
           <link rel="shortcut icon" href="/static/media/favicon.png" />
           <link rel="preconnect" href="https://bred.jevestobs.dev" />
           <link rel="preconnect" href="https://github.com" />

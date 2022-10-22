@@ -1,27 +1,26 @@
 import React from 'react'
 import Link from 'next/link'
-import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faChartLine } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Github, Twitter, LineChart } from 'lucide-react'
 
 const Info: React.FC = () => (
   <React.Fragment>
+    <title>Jeve Stobs - Portfolio</title>
     <div className="info-media-container">
       <Link href={'https://github.com/Jeve-Stobs'} passHref>
-        <a className="linkedin">
-          <FontAwesomeIcon icon={faGithub} />
+        <a className="github">
+          <Github />
           &nbsp;&#8239; View my projects on GitHub
         </a>
       </Link>
       <Link href={'https://twitter.com/devstobs'} passHref>
         <a className="twitter">
-          <FontAwesomeIcon icon={faTwitter} />
+          <Twitter />
           &nbsp;&#8239; Send me a DM on Twitter
         </a>
       </Link>
       <Link href={'https://bred.jevestobs.dev'} passHref>
-        <a className="dribbble">
-          <FontAwesomeIcon icon={faChartLine} />
+        <a className="recession">
+          <LineChart />
           &nbsp;&#8239; Check out my recession indicator
         </a>
       </Link>
@@ -40,11 +39,11 @@ const Info: React.FC = () => (
       a > i {
         padding-right: 8px;
       }
-      .dribbble {
+      .recession {
         color: #ea4c89;
         background-color: rgba(234, 76, 137, 0.07);
       }
-      .dribbble:hover {
+      .recession:hover {
         background-color: rgba(234, 76, 137, 0.115);
       }
       .twitter {
@@ -54,11 +53,11 @@ const Info: React.FC = () => (
       .twitter:hover {
         background-color: rgba(29, 161, 242, 0.115);
       }
-      .linkedin {
+      .github {
         color: #2867b2;
         background-color: rgba(40, 103, 178, 0.07);
       }
-      .linkedin:hover {
+      .github:hover {
         background-color: rgba(40, 103, 178, 0.115);
       }
       .info-media-container {
