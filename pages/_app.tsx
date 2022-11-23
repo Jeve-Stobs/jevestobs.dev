@@ -1,14 +1,15 @@
-import React from 'react'
 import { AppProps } from 'next/app'
+import { Inter } from '@next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <>
-      <Component {...pageProps} />
       {/* language=CSS */}
       <style jsx global>{`
         body {
-          font-family: 'Inter', sans-serif;
+          font-family: ${inter.style.fontFamily};
           font-size: 10px;
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
@@ -18,6 +19,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
           margin: 0 auto;
         }
       `}</style>
+      <Component {...pageProps} />
     </>
   )
 }

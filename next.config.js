@@ -1,11 +1,13 @@
-const withPreact = require('next-plugin-preact')
-
-module.exports = withPreact({
+module.exports = {
   generateBuildId: () => 'build',
   distDir: 'build',
   reactStrictMode: false,
   swcMinify: true,
   experimental: {
-    optimizeCss: true
+    optimizeCss: true,
+    enableUndici: true,
+    fontLoaders: [
+      { loader: '@next/font/google', options: { subsets: ['latin'] } }
+    ]
   }
-})
+}

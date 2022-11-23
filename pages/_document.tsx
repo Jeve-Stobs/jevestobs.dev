@@ -1,4 +1,3 @@
-import React from 'react'
 import Document, {
   Html,
   Head,
@@ -26,18 +25,17 @@ class MyDocument extends Document {
           <link rel="dns-prefetch" href="https://bred.jevestobs.dev" />
           <link rel="dns-prefetch" href="https://github.com" />
           <link rel="dns-prefetch" href="https://twitter.com" />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600.700&display=swap"
-          />
         </Head>
         <body>
           <DefaultSeo
+            title="Jeve Stobs - Portfolio"
+            description="Hi, I'm Sam 👋 16 y/o developer with a passion for building websites & blazing fast applications."
             openGraph={{
               type: 'website',
               locale: 'en_US',
               url: 'https://jevestobs.dev',
-              description: 'Jeve Stobs - Portfolio',
+              description:
+                "Hi, I'm Sam 👋 16 y/o developer with a passion for building websites & blazing fast applications.",
               site_name: 'Jeve Stobs'
             }}
             twitter={{
