@@ -1,6 +1,6 @@
 module.exports = {
   siteUrl: 'https://jevestobs.dev',
-  generateRobotsTxt: true,
+  generateRobotsTxt: false,
   sourceDir: 'build',
   priority: 0.7
 }

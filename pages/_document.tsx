@@ -28,11 +28,14 @@ class MyDocument extends Document {
         </Head>
         <body>
           <DefaultSeo
+            title="Jeve Stobs - Portfolio"
+            description="Hi, I'm Sam 👋 16 y/o developer with a passion for building websites & blazing fast applications."
             openGraph={{
               type: 'website',
               locale: 'en_US',
               url: 'https://jevestobs.dev',
-              description: 'Jeve Stobs - Portfolio',
+              description:
+                "Hi, I'm Sam 👋 16 y/o developer with a passion for building websites & blazing fast applications.",
               site_name: 'Jeve Stobs'
             }}
             twitter={{
