@@ -6,19 +6,19 @@ const Info: React.FC = () => (
   <React.Fragment>
     <title>Jeve Stobs - Portfolio</title>
     <div className="info-media-container">
-      <Link href={'https://github.com/Jeve-Stobs'} passHref>
+      <Link href={'https://github.com/Jeve-Stobs'} legacyBehavior passHref>
         <a className="github">
           <Github />
           &nbsp;&#8239; View my projects on GitHub
         </a>
       </Link>
-      <Link href={'https://twitter.com/devstobs'} passHref>
+      <Link href={'https://twitter.com/devstobs'} legacyBehavior passHref>
         <a className="twitter">
           <Twitter />
           &nbsp;&#8239; Send me a DM on Twitter
         </a>
       </Link>
-      <Link href={'https://bred.jevestobs.dev'} passHref>
+      <Link href={'https://bred.jevestobs.dev'} legacyBehavior passHref>
         <a className="recession">
           <LineChart />
           &nbsp;&#8239; Check out my recession indicator
