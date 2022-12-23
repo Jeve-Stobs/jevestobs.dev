@@ -5,7 +5,6 @@ module.exports = {
   swcMinify: true,
   experimental: {
     optimizeCss: true,
-    enableUndici: true,
     fontLoaders: [
       { loader: '@next/font/google', options: { subsets: ['latin'] } }
     ]
