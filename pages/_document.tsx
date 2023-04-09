@@ -6,6 +6,7 @@ import Document, {
   NextScript
 } from 'next/document'
 import { DefaultSeo } from 'next-seo'
+import getBirthday from '../utils/birthday'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -29,13 +30,12 @@ class MyDocument extends Document {
         <body>
           <DefaultSeo
             title="Jeve Stobs - Portfolio"
-            description="Hi, I'm Sam 👋 16 y/o developer with a passion for building websites & blazing fast applications."
+            description={`Hi, I'm Sam 👋 ${getBirthday()} y/o developer with a passion for building websites & blazing fast applications.`}
             openGraph={{
               type: 'website',
               locale: 'en_US',
               url: 'https://jevestobs.dev',
-              description:
-                "Hi, I'm Sam 👋 16 y/o developer with a passion for building websites & blazing fast applications.",
+              description: `Hi, I'm Sam 👋 ${getBirthday()} y/o developer with a passion for building websites & blazing fast applications.`,
               site_name: 'Jeve Stobs'
             }}
             twitter={{
