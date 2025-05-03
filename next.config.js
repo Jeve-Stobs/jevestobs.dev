@@ -2,8 +2,11 @@ module.exports = {
   generateBuildId: () => 'build',
   distDir: 'build',
   reactStrictMode: false,
-  swcMinify: true,
+  compress: true,
   experimental: {
-    optimizeCss: true
+    cssChunking: true,
+    inlineCss: true,
+    optimizeCss: true,
+    useCache: true
   },
 }

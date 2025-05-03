@@ -11,19 +11,19 @@
     "@next/env": "^15.3.1",
     "beasties": "^0.3.3",
     "critters": "^0.0.23",
-    "lucide-react": "^0.503.0",
+    "lucide-react": "^0.507.0",
     "next": "^15.3.1",
     "next-seo": "^6.6.0",
     "next-sitemap": "^4.2.3",
     "prettier": "^3.5.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "webpack": "^5.99.6"
+    "webpack": "^5.99.7"
   },
   "devDependencies": {
-    "@types/node": "^22.14.1",
+    "@types/node": "^22.15.3",
     "@types/react": "^19.1.2",
-    "eslint": "9.25.1",
+    "eslint": "9.26.0",
     "eslint-config-next": "15.3.1",
     "prop-types": "^15.8.1",
     "typescript": "^5.8.3"
